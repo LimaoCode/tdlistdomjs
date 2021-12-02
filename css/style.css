@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+}
+
+main{
+    border: solid 1px #000;
+    margin: 0 auto;
+    padding: 50px;
+    height: 100%;
+    background-color: #13CEB2;
+}
+
+.box{
+    border: solid 1px #000;
+    overflow: auto;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #2C3347;
+}
+
+.wrap{
+    padding: 50px;
+}
+
+.titulo-box{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #fff;
+    border: none;
+}
+
+.texto{
+    padding: 5px;
+}
+
+.adicionar{
+    padding: 6px 15px;
+    color: #2C3347;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+.lista-materias{
+margin: 25px 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    background-color: #13CEB2;
+    padding: 15px 10px;
+    font-size: 1.25em;
+    margin: 10px 0;
+}
+
+li.hidden{
+    text-decoration: line-through;
+}
+
+li.hidden .botoes button{
+    text-decoration:none;
+}
+
+
+.concluir{
+    padding: 6px 15px;
+    margin: 0 15px;
+    background-color: #fff;
+    color: #2C3347;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+.excluir{
+    padding: 6px 15px;
+    margin: 0 15px;
+    background-color: #fff;
+    color: #2C3347;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
